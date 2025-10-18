@@ -1,0 +1,101 @@
+/* Global styles */
+body {
+  background-color: #fff8e7; /* svijetlo žuta pozadina */
+  font-family: 'Segoe UI', sans-serif;
+  color: #333; /* tamni tekst radi čitljivosti */
+  margin: 0;
+  padding: 0;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #ffd166; /* vesela žuta */
+}
+
+.navbar .nav-link {
+  color: #000; /* crni linkovi */
+}
+
+.navbar .nav-link.active,
+.navbar .nav-link:hover {
+  color: #ff6b6b; /* naglasak pri hoveru / active */
+}
+
+/* Brand */
+.navbar-brand {
+  color: #ff6b6b !important; /* PawTopia brand */
+  font-weight: bold;
+}
+
+/* Card images */
+.card img {
+  height: 200px;
+  object-fit: cover;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #ffd166; /* footer u istom veselom tonu */
+  color: #000;
+  margin-top: 40px;
+  border-top: 3px solid #ff6b6b;
+}
+
+/* Buttons */
+.btn-primary {
+  background-color: #ff6b6b;
+  border: none;
+  color: #fff;
+}
+
+.btn-primary:hover {
+  background-color: #ff4b4b;
+  color: #fff;
+}
+
+/* Brand text */
+.brand {
+  color: #ff6b6b;
+  text-shadow: 0 0 5px rgba(255, 107, 107, 0.7);
+}
+
+/* About page fullscreen background */
+#about {
+  background-image: url('../images/animals.jpg'); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #000;
+  padding: 0 1rem;
+}
+
+
+#about .card {
+  background-color: rgba(255, 209, 102, 0.7); 
+  color: #000;
+  margin: 1rem 0;
+}
+
+
+#about .card-title {
+  color: #ff6b6b;
+  font-weight: 600;
+}
+
+#about .card-text {
+  color: #333;
+}
+
+
+@media (max-width: 768px) {
+  .display-4 { font-size: 2rem; }
+  .lead { font-size: 1rem; }
+}
