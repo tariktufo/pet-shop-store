@@ -16,3 +16,24 @@ Faculty: International Burch University (IBU)
 Course: Web Programming  
 GitHub: [tariktufo](https://github.com/tariktufo)
 
+##  Database Schema (ERD)
+
+
+
+The planned database schema for the Pet Shop application is available as an image.
+
+You can find the ERD diagram image in frontend-assets-images-databse.jpg
+
+
+
+
+
+
+
+
+
+
+
+
+
+
