@@ -22,7 +22,7 @@ GitHub: [tariktufo](https://github.com/tariktufo)
 
 The planned database schema for the Pet Shop application is available as an image.
 
-You can find the ERD diagram image in frontend-assets-images-databse.jpg
+You can find the ERD diagram image in frontend-assets-images-databse.jpg 
 
 
 
