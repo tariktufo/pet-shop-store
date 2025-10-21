@@ -1,0 +1,62 @@
+<section 
+  id="home-hero" 
+  class="text-center text-white d-flex align-items-center justify-content-center home-hero"
+>
+  <div class="overlay"></div>
+
+  <div class="content">
+    <h1 class="display-2 fw-bold mb-3">Welcome to <span class="brand">PawTopia 🐾</span></h1>
+    <p class="lead mb-4">Where tails wag and hearts smile — everything your pets deserve!</p>
+    <a href="#products" id="shop-now" class="btn btn-lg btn-light shadow">Shop Now</a>
+  </div>
+</section>
+
+<style>
+.home-hero {
+  background: url('assets/images/pets.jpg') center center / cover no-repeat;
+  height: 100vh;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.home-hero .overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.55);
+  z-index: 1;
+}
+
+.home-hero .content {
+  position: relative;
+  z-index: 2;
+  max-width: 700px;
+  margin: auto;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.brand {
+  color: #ffd166;
+  text-shadow: 0 0 15px rgba(255, 209, 102, 0.7);
+}
+
+#shop-now {
+  transition: all 0.3s ease;
+  font-weight: 600;
+}
+#shop-now:hover {
+  transform: scale(1.05);
+  background-color: #ffd166;
+  color: #000;
+  box-shadow: 0 0 20px rgba(255, 209, 102, 0.8);
+}
+
+@media (max-width: 768px) {
+  .display-2 { font-size: 2.3rem; }
+  .lead { font-size: 1.1rem; }
+  #shop-now { font-size: 1rem; padding: 10px 20px; }
+}
+</style>
