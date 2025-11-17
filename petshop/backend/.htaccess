@@ -1,0 +1,35 @@
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php [QSA,L]
+
+# Enable CORS
+Header set Access-Control-Allow-Origin "*"
+Header set Access-Control-Allow-Methods "GET, POST, PUT, DELETE, OPTIONS"
+Header set Access-Control-Allow-Headers "Content-Type, Authorization"
+```
+
+---
+
+
+
+### TEST 1: Backend root
+```
+http://localhost/petshop/backend/
+```
+
+
+### TEST 2: API users
+```
+http://localhost/petshop/backend/api/users
+```
+
+
+### TEST 3: Swagger JSON
+```
+http://localhost/petshop/backend/docs/swagger.php
+```
+
+### TEST 4: Swagger UI
+```
+http://localhost/petshop/backend/docs/
